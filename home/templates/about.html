@@ -1,0 +1,48 @@
+{% extends 'base.html' %} {% block body %}
+<div class="mx-auto p-3">
+    <main class="m-1">
+        <h2>Plot Management</h2>
+        <p class="fs-3">Hi, guys. Myself Mostafizur Rahman, student of RUET. I have been developed this website for a group of people who are interested in PLOT business but due to hard time schedule they can't travel to gather information. I want to make them informative
+            about those plot in a small time period.
+        </p>
+
+        <div class="mb-4 pt-3">
+            <a href="/deals" class="btn btn-outline-info btn-lg px-4">Visit Plot Page</a>
+        </div>
+
+        <hr class="col-3 col-md-2 mb-5">
+
+        <div class="row g-5 py-4 d-flex justify-content-end">
+            <div class="row pt-5">
+                <h2>Inbox Suggestions</h2>
+                <form action="mainto:mostafizur.kfc9@gmail.com" method="post" enctype="text/plain">
+                    <div class="mb-3 pt-2 w-50">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your name">
+                    </div>
+                    <div class="mb-3 pt-2 w-50">
+
+                        <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Your email">
+                    </div>
+                    <div class="mb-3 pt-2 w-50">
+
+                        <textarea class="form-control" name="message" cols="50" rows="5" placeholder="Your message here"></textarea>
+                    </div>
+                    <div class="col-auto pt-2">
+                        <button type="submit" class="btn btn-outline-success">Submit</button>
+                        <button type="submit" class="btn btn-outline-danger">Reset</button>
+                    </div>
+                </form>
+            </div>
+            <div class="row my-3 pt-5">
+                <h2>Guides</h2>
+                <p class="fs-3">Guidance will help you for safe dealing.Stay alert from online scam and frauds.</p>
+                <ul class="icon-list text-muted fs-3">
+                    <li>Take a glance at PLOT details</li>
+                    <li>Make a phone call with owner</li>
+                    <li>Make sure all paper are leagal</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</div>
+{% endblock body %}

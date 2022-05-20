@@ -1,0 +1,5 @@
+{
+    "git.ignoreLimitWarning": true,
+    "appService.defaultWebAppToDeploy": "/subscriptions/f9d03cd4-b2a0-475b-8c32-57257dcdb10e/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/plot-manage",
+    "appService.deploySubpath": "."
+}
